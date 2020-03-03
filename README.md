@@ -18,7 +18,7 @@ I originally wanted to use AudioSet, however this dataset only provided csv file
 
 AudioSet: https://research.google.com/audioset/
 
-To prove that the numpy arrays can be played back into sound, I adapted a python program that 
+To prove that the numpy arrays can be played back into sound, I adapted Daisukelab's code that he used to generate the dataset.
 
 The model is built upon a version of DC-GAN outlined by lecturer Jeff Heaton.
 
