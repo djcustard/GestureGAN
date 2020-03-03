@@ -1,5 +1,7 @@
 # GestureGAN
-Application of AI in ElectroAcoustic Music
+## Application of AI in ElectroAcoustic Music##
+
+**It should be noted that Google Colab documents run from the Dataset on my Google Drive, a rerouting of the Dataset will be done for public access at some point!##
 
 Here is a collection of the code which contributes towards the GAN. 
 
@@ -11,9 +13,6 @@ These arrays are depedent on the length of the audio clips. In our case we want 
 
 Original Numpy format: (128, AUDIO_LENGTH, 3);
 New Numpy format: (128, 128, 3);
-
-
-
 
 The model is built upon a version of DC-GAN outlined by lecturer Jeff Heaton.
 
