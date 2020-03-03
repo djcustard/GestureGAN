@@ -18,7 +18,7 @@ I originally wanted to use AudioSet, however this dataset only provided csv file
 
 AudioSet: https://research.google.com/audioset/
 
-To prove that the numpy arrays can be played back into sound, I adapted Daisukelab's code that he used to generate the dataset.
+To prove that the numpy arrays can be played back into sound, I adapted Daisukelab's code that he used to generate the dataset. In this program he generates a 2D numpy array, but then transforms this to 3D when converting the STFT representation from Mono to Colour. Potentially this could be benefinicial to the acceptance of the dataset with DCGAN. Because this Generative Adversarial Network is built for RGB images anyway, perhaps it is worth just downgrading the output arrays back to Mono so then they can be processed back into sound.
 
 The model is built upon a version of DC-GAN outlined by lecturer Jeff Heaton.
 
