@@ -9,10 +9,16 @@ Firstly, the Dataset is provided from a Kaggle competition. User Daisukelab pres
 
 link: https://www.kaggle.com/daisukelab/fat2019_prep_mels1#trn_noisy_best50s.csv
 
-These arrays are depedent on the length of the audio clips. In our case we want these to all be the same length so I wrote some code to unload the pickle and shorten these arrays to be 1 second long.
+These arrays are depedent on the length of the audio clips. In our case we want these to all be the same length so I wrote some code to unload the pickle and shorten these arrays to be 1 second long. Program I wrote is provided as a file called ReshapeTheNumpy.ipynb.
 
 Original Numpy format: (128, AUDIO_LENGTH, 3);
 New Numpy format: (128, 128, 3);
+
+I originally wanted to use AudioSet, however this dataset only provided csv files of timestamps within YouTube videos. These timestamps represented sounds of a particular condition which was ideal for this interpretation. The FAT2019 Prep-Mels Dataset will have to use a classifier engine to organise these sounds. At the moment I plan to break these down into folder of their particular categories and then train the GAN on each. At this current time I am unsure how this will work with the plan for interpolation between categories, but this will soon be fixed.
+
+AudioSet: https://research.google.com/audioset/
+
+To prove that the numpy arrays can be played back into sound, I created a short python program to randomly recall and play numpy arrays from their folder.
 
 The model is built upon a version of DC-GAN outlined by lecturer Jeff Heaton.
 
