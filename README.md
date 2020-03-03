@@ -1,7 +1,7 @@
 # GestureGAN
-## Application of AI in ElectroAcoustic Music##
+### Application of AI in ElectroAcoustic Music
 
-**It should be noted that Google Colab documents run from the Dataset on my Google Drive, a rerouting of the Dataset will be done for public access at some point!##
+**It should be noted that Google Colab documents run from the Dataset on my Google Drive, a rerouting of the Dataset will be done for public access at some point!
 
 Here is a collection of the code which contributes towards the GAN. 
 
