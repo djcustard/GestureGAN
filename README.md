@@ -22,7 +22,7 @@ To prove that the numpy arrays can be played back into sound, I adapted Daisukel
 
 Yet to be succesful in transferring Mel-Specs back to Audio. Might take advantage of this python program that will allow me the ability to create STFT and inverse it.
 
-Audio Tools by kastnerkyle: https://gist.github.com/kastnerkyle/179d6e9a88202ab0a2fe
+Tim Sainburg's implementation of kastnerkyle's work: https://timsainburg.com/python-mel-compression-inversion.html
 
 The model is built upon a version of DC-GAN outlined by lecturer Jeff Heaton.
 
