@@ -24,6 +24,10 @@ Yet to be succesful in transferring Mel-Specs back to Audio. Might take advantag
 
 Tim Sainburg's implementation of kastnerkyle's work: https://timsainburg.com/python-mel-compression-inversion.html
 
+Because of my inability to convert the MelSpec processed dataset back to sound, I took the raw wav files, reduced their lengths to one second and then processe them through Tim Sainburg's implementation. The audio length code I wrote is called AdjustAudioClip and the implementation of kastnerkyle's code is found in the STFT program.
+
+The resulting Dataset I now have is Numpy arrays of 1 dimension with 44100 samples. Now I must try to implement the Generative Adversarial Network model.
+
 The model is built upon a version of DC-GAN outlined by lecturer Jeff Heaton.
 
 DC-GAN with Images: https://github.com/jeffheaton/t81_558_deep_learning/blob/master/t81_558_class_07_2_Keras_gan.ipynb
