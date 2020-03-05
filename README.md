@@ -38,3 +38,7 @@ The model is built upon a version of DC-GAN outlined by lecturer Jeff Heaton.
 DC-GAN with Images: https://github.com/jeffheaton/t81_558_deep_learning/blob/master/t81_558_class_07_2_Keras_gan.ipynb
 
 This application uses images which are represented as 3 dimensional numpy arrays. To tackle this we must adapt this model to accept 1 dimensional arrays that are outputted from our STFT.
+
+Currently following a 1D implementation GAN. Keras model Sequential first layer must take it's input shape. Use Dense function to define this.
+
+How to Develop A 1D Generative Adversarial Network: https://machinelearningmastery.com/how-to-develop-a-generative-adversarial-network-for-a-1-dimensional-function-from-scratch-in-keras/
