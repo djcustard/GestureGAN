@@ -26,7 +26,12 @@ Tim Sainburg's implementation of kastnerkyle's work: https://timsainburg.com/pyt
 
 Because of my inability to convert the MelSpec processed dataset back to sound, I took the raw wav files, reduced their lengths to one second and then processe them through Tim Sainburg's implementation. The audio length code I wrote is called AdjustAudioClip and the implementation of kastnerkyle's code is found in the STFT program.
 
-The resulting Dataset I now have is Numpy arrays of 1 dimension with 44100 samples. Now I must try to implement the Generative Adversarial Network model.
+The resulting Dataset I now have is Numpy arrays of 2 dimensions. Now I must try to implement the Generative Adversarial Network model.
+
+The problem with this is that the arrays are not in a shape that could fit into the image GAN. However the MelSpecs that Daisukelab produced before are perfect for this. I will contact him to ask about the possibility of converting these specs back to sound.
+
+
+//THE GENERATIVE ADVERSARIAL NETWORK MODEL THAT I HAVE PREVIOUSLY EXPLORED//
 
 The model is built upon a version of DC-GAN outlined by lecturer Jeff Heaton.
 
