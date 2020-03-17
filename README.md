@@ -43,7 +43,8 @@ Currently following a 1D function implementation GAN. Keras model Sequential fir
 
 How to Develop A 1D Function Generative Adversarial Network: https://machinelearningmastery.com/how-to-develop-a-generative-adversarial-network-for-a-1-dimensional-function-from-scratch-in-keras/
 
-Following on from this, I am trying to develop a short term version of this system to produce waveforms. Replacing the 1D function with a waveform. This work has seen me starting to train a discriminator model. This taking various points from the real waveform and a randomly generated waveform (noise.) 
+Following on from this, I am trying to develop a short term version of this system to produce waveforms. Replacing the 1D function with a waveform. This work has seen me starting to train a discriminator model. This taking various points from the real waveform and a randomly generated waveform (noise.)
 
+This interpretation of a 1DGAN is currently training on a waveform. Because of the complexity of the waveform, the discriminator model usually trains to a 24% recognition of the real signal and 100-99% recognition of fake. I imagine this wil have a serious effect on the ability to replicate the signal. I am first seeking to try and make sound, then to enhance the models ability of production.
 
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
