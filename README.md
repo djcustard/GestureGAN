@@ -51,6 +51,13 @@ Signals that are produced from the 1DsGAN are completely silent at the moment. B
 
 After some testing, the value predicted from the Generator model is corresponding to how large the latent space is through its layers. I believe I have been training the Discriminator model on too little amount of layers. With the complexity of the signal, I am training a model with an increased amount of layers.
 
-Also, I could be improving my performance by choosing 44100 random samples at each level to try and understand the signal better. I currently only train on a 22050 batch as 44100 points are split between 22050 real and fake samples.
+Also, I could be improving my performance by choosing 44100 random samples at each level to try and understand the signal better. I currently only train on a 22050 batch as 44100 points are split between 22050 real and fake samples. --> This did not improve things.
+
+However 1DGAN kernel initializers were previously set to he_uniform, which means value were accustomed to a normal distribution around 0(link1). This shouldn't be as such as we are dealing with floating points with a random uniform distribution. Moving back and across over 0 (in terms of audio). Just by changing the layers from he_uniform to random_uniform, the discrimintor model saw a boost in performance registering recognition of real samples by 49% and real by 100-99%.
+
+Currently the 1DGAN works off the function being of symettrical uniform. Random points are selected from the real function and these each connect to form a rough outline of the functions shape. However I propose that we take 'slices' rather than points from a signal. This would mean that 'slices' of continuous audio are fed into the discriminator model, rather than individual points. Because of the complexity of the signal from the audio clip, taking 'slices' should furthermore give the model and understanding of how the points are arranged and positioned throughout the clip.
 
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
+
+Links:
+link1 - https://keras.io/initializers/
