@@ -59,6 +59,8 @@ Currently the 1DGAN works off the function being of symettrical uniform. Random 
 
 02/04/20 - DsExGAN is the python program I have interpretted this idea into. I will upload the code soon, currently trying to train the discriminator. DaisukeLab helpfully responded to me today saying that I should check out the Librosa function or potentially research a GAN model that creates plausible sounds based on the Spec image.
 
+03/04/20 - DsExGAN has been trained and tested. The GAN seems to output values that are more realistic. For curiosity I will train a model on much less layers to see its success. I have also multiplied the Output of the GAN files as these are still float values between 0.0-1.0. We will multiply these by 32767 to potentially change the behaviour.
+
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
 Links:
