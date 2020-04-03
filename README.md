@@ -65,3 +65,5 @@ Because of my inability to be able to succesfully regenerate audio from the STFT
 
 Links:
 link1 - https://keras.io/initializers/
+link2 - https://www.tensorflow.org/tutorials/customization/custom_training
+link3 - https://machinelearningmastery.com/how-to-develop-a-generative-adversarial-network-for-a-1-dimensional-function-from-scratch-in-keras/
