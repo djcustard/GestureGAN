@@ -63,6 +63,8 @@ Currently the 1DGAN works off the function being of symettrical uniform. Random 
 
 '<i>The ideal number of hidden layers and neurons depends on the problem and the dataset. Like many aspects of machine learning, picking the best shape of the neural network requires a mixture of knowledge and experimentation. As a rule of thumb, increasing the number of hidden layers and neurons typically creates a more powerful model, which requires more data to train effectively.</i>' - Custom Training: Walkthrough (TF)
 
+06/04/20 - Been transforming Numpy arrays to Tensors. Will focus on building a new model today. Training will be overnight.
+
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
 Links:
