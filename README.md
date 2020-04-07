@@ -39,7 +39,9 @@ DC-GAN with Images: https://github.com/jeffheaton/t81_558_deep_learning/blob/mas
 
 This application uses images which are represented as 3 dimensional numpy arrays. To tackle this we must adapt this model to accept 1 dimensional arrays that are outputted from our STFT.
 
+![GeneratedImages](https://github.com/djcustard/GestureGAN/blob/master/ADevelopedImage.png)
 
+<i> These were some numpy arrays creating audio that I generated, here displayed as images. These were all noise.</i>
 
 Currently following a 1D function implementation GAN. Keras model Sequential first layer must take it's input shape. Use Dense function to define this.
 
