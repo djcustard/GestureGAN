@@ -94,10 +94,10 @@ Currently the 1DGAN works off the function being of symettrical uniform. Random 
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
 Links:
-link1 - https://keras.io/initializers/
-link2 - https://www.tensorflow.org/tutorials/customization/custom_training
-link3 - https://machinelearningmastery.com/how-to-develop-a-generative-adversarial-network-for-a-1-dimensional-function-from-scratch-in-keras/
-link4 - https://arxiv.org/pdf/1511.06434.pdf
-link5 - https://arxiv.org/pdf/1710.10196.pdf
-link6 - https://machinelearningmastery.com/introduction-to-progressive-growing-generative-adversarial-networks/
-link7 - https://machinelearningmastery.com/how-to-train-a-progressive-growing-gan-in-keras-for-synthesizing-faces/
+<p>link1 - https://keras.io/initializers/</p>
+<p>link2 - https://www.tensorflow.org/tutorials/customization/custom_training</p>
+<p>link3 - https://machinelearningmastery.com/how-to-develop-a-generative-adversarial-network-for-a-1-dimensional-function-from-scratch-in-keras/</p>
+<p>link4 - https://arxiv.org/pdf/1511.06434.pdf</p>
+<p>link5 - https://arxiv.org/pdf/1710.10196.pdf</p>
+<p>link6 - https://machinelearningmastery.com/introduction-to-progressive-growing-generative-adversarial-networks/</p>
+<p>link7 - https://machinelearningmastery.com/how-to-train-a-progressive-growing-gan-in-keras-for-synthesizing-faces/</p>
