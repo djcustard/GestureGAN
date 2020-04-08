@@ -70,7 +70,12 @@ Currently the 1DGAN works off the function being of symettrical uniform. Random 
 06/04/20 - Been transforming Numpy arrays to Tensors. Will focus on building a new model today. Training will be overnight. To build this new model, I will be creating a big Numpy array, transferring this to a tensor then transferring this to a tensor dataset. So far today I have created a Dataset from a single audio clip and have built a generator model! Taking influence from the DCGAN model from TensorFlows tutorials, I have thought about returning to generating image from audio. To make this succesful I will need to resize some WavFiles (again, doh!) If I trim my clips to 22500 sample, they will have a tensor shape of (22500, 1), I will then reshape these to a format of (150, 150, 1). This technically being a greyscale image. From the DCGAN implementation on TensorFlow, I have created a generator which will produce images of this format. My method now is to implement the tutorials architecture, and verify the success of the models. This will be done through plotting the gradient and optimizer performance. For now, I will reshape 1 audio clip to the specified length and save this tensor.
 
 07/04/20 - Deciding to reshape a batch of audio clips. Because of the bigger size of the images, there is much more processing needed in the Convulotion of the images. This produces some errors. I will return to GANSynth to understand the Tensors they produced with their STFT processing algorithms. It's important to note that the images I am trying to create represent the raw waveform. No STFT processing has occured on these audio clips as of yet.
+
 ![DesiredImage](https://github.com/djcustard/GestureGAN/blob/master/DesiredResult.png)
+
+<i> This was the Image that was used as the Dataset. Here is the sound</i>
+
+
 ![GeneratedImagesEpoch1](https://github.com/djcustard/GestureGAN/blob/master/1.png)
 ![GeneratedImagesEpoch50](https://github.com/djcustard/GestureGAN/blob/master/50.png)
 
