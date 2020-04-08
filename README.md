@@ -76,6 +76,8 @@ Currently the 1DGAN works off the function being of symettrical uniform. Random 
 <i> This was the Image that was used as the Dataset. Here is the sound</i>
 
 [DatasetSound](/AudioClips/1dcc4dd4.wav)
+
+
 ![GeneratedImagesEpoch1](https://github.com/djcustard/GestureGAN/blob/master/1.png)
 ![GeneratedImagesEpoch50](https://github.com/djcustard/GestureGAN/blob/master/50.png)
 
