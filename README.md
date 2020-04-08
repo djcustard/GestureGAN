@@ -71,8 +71,9 @@ Currently the 1DGAN works off the function being of symettrical uniform. Random 
 
 07/04/20 - Deciding to reshape a batch of audio clips. Because of the bigger size of the images, there is much more processing needed in the Convulotion of the images. This produces some errors. I will return to GANSynth to understand the Tensors they produced with their STFT processing algorithms. It's important to note that the images I am trying to create represent the raw waveform. No STFT processing has occured on these audio clips as of yet.
 
-<img align="centre" width="400" height="400" src="https://github.com/djcustard/GestureGAN/blob/master/DesiredResult.png">
-
+<p align="center">
+<img width="400" height="400" src="https://github.com/djcustard/GestureGAN/blob/master/DesiredResult.png">
+</p>
 <i> This was the Image that was used as the Dataset. Here is the sound</i>
 
 [DatasetSound](/AudioClips/1dcc4dd4.wav)
