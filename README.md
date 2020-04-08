@@ -76,6 +76,8 @@ Currently the 1DGAN works off the function being of symettrical uniform. Random 
 
 <i> Epoch 1 compared to Epoch 50. My stride and processing is at too low of a level for (1, 150, 150, 1). This develops this grid like texture.</i>
 
+08/04/20 - 
+
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
 Links:
