@@ -89,7 +89,7 @@ Currently the 1DGAN works off the function being of symettrical uniform. Random 
 
 <i> Epoch 1 compared to Epoch 50. My stride and processing is at too low of a level for (1, 150, 150, 1). This develops this grid like texture. The Audio for these clips will be added soon.</i>
 
-08/04/20 - 
+08/04/20 - A lot of today has been about functionally developing the project. Google Drive was running out of space so just making information to my HD. Because of the behaviour witnessed in yesterdays GAN production. I will first try to upgrade DCGAN's capability. However I believe that DCGAN's architecture won't be able to process the necessary amount of information. On research, Progressive GAN architecture could fit our particular needs. Supporting the upscaling of images to the desired output. (This is the architecture of GANSynth.) For the rest of today I will focus on improving DCGAN's performance. Tomorrow I will begin a tutorial in developing a PGAN.
 
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
