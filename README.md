@@ -71,6 +71,9 @@ Currently the 1DGAN works off the function being of symettrical uniform. Random 
 
 07/04/20 - Deciding to reshape a batch of audio clips.
 
+![GeneratedImagesEpoch1](https://github.com/djcustard/GestureGAN/blob/master/1.png)
+![GeneratedImagesEpoch50](https://github.com/djcustard/GestureGAN/blob/master/50.png)
+
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
 Links:
