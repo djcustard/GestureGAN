@@ -98,9 +98,9 @@ As mentioned, because of the smaller strides, we recieve a grid like texture whi
 Dataset is underway now. We are currently forming one with the shape appropriate for smaller PGAN work; tensors with shape (1, 128, 128, 3). First these are trimmed to wav's of 49,152 sample length. Then these will be converted to tensors. Here are some of the images:
 
 ![RGBSOUND1](https://github.com/djcustard/GestureGAN/blob/master/Images/1RGB.png)
-![RGBSOUND2](https://github.com/djcustard/GestureGAN/blob/master/Images/50.png)
-![RGBSOUND3](https://github.com/djcustard/GestureGAN/blob/master/Images/1RGB.png)
-![RGBSOUND4](https://github.com/djcustard/GestureGAN/blob/master/Images/50.png)
+![RGBSOUND2](https://github.com/djcustard/GestureGAN/blob/master/Images/2.png)
+![RGBSOUND3](https://github.com/djcustard/GestureGAN/blob/master/Images/3.png)
+![RGBSOUND4](https://github.com/djcustard/GestureGAN/blob/master/Images/5.png)
 
 It its important to note that PGAN have the potential to create 1024x1024 size images. Whilst this takes considerable power and will most likely involve renting time on a higher spec computer. This could be a possibility. If the PGAN works on a smaller scale with random audio clips, the next steps will be to:
 
