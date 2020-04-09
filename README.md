@@ -39,7 +39,7 @@ DC-GAN with Images: https://github.com/jeffheaton/t81_558_deep_learning/blob/mas
 
 This application uses images which are represented as 3 dimensional numpy arrays. To tackle this we must adapt this model to accept 1 dimensional arrays that are outputted from our STFT.
 
-![GeneratedImages](https://github.com/djcustard/GestureGAN/blob/master/ADevelopedImage.png)
+![GeneratedImages](https://github.com/djcustard/GestureGAN/blob/master/Images/ADevelopedImage.png)
 
 <i> These were some numpy arrays creating audio that I generated, here displayed as images. These were all noise.</i>
 
@@ -72,7 +72,7 @@ Currently the 1DGAN works off the function being of symettrical uniform. Random 
 07/04/20 - Deciding to reshape a batch of audio clips. Because of the bigger size of the images, there is much more processing needed in the Convulotion of the images. This produces some errors. I will return to GANSynth to understand the Tensors they produced with their STFT processing algorithms. It's important to note that the images I am trying to create represent the raw waveform. No STFT processing has occured on these audio clips as of yet. However recently I have believed that there is potential to do this without producing an STFT image. We will continue with raw data for now. Scaling of audio clips going into DCGAN and out may need to be scaled better. We must scale the audio around (1,-1) to fit the GANs specification. The output from the network will then be scaled back into its file preferance. Before doing scaling I found these results:
 
 <p align="center">
-<img width="300" height="300" src="https://github.com/djcustard/GestureGAN/blob/master/DesiredResult.png">
+<img width="300" height="300" src="https://github.com/djcustard/GestureGAN/blob/master/Images/DesiredResult.png">
 </p>
 
 <p align="center">
