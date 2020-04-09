@@ -102,8 +102,9 @@ Dataset is underway now. We are currently forming one with the shape appropriate
 ![RGBSOUND3](https://github.com/djcustard/GestureGAN/blob/master/Images/3.png)
 ![RGBSOUND4](https://github.com/djcustard/GestureGAN/blob/master/Images/5.png)
 
+<p align='center'>
 <i> These are plotted RGB tensors. I will add the sound for each of these so they can be heard. </i>
-
+</p>
 It its important to note that PGAN have the potential to create 1024x1024 size images. Whilst this takes considerable power and will most likely involve renting time on a higher spec computer. This could be a possibility. If the PGAN works on a smaller scale with random audio clips, the next steps will be to:
 
 - Develop a classifier and organise the audio clips into folders of their specification.
