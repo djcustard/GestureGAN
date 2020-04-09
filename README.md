@@ -84,8 +84,8 @@ Currently the 1DGAN works off the function being of symettrical uniform. Random 
 </p>
 
 
-![GeneratedImagesEpoch1](https://github.com/djcustard/GestureGAN/blob/master/1.png)
-![GeneratedImagesEpoch50](https://github.com/djcustard/GestureGAN/blob/master/50.png)
+![GeneratedImagesEpoch1](https://github.com/djcustard/GestureGAN/blob/master/Images/1.png)
+![GeneratedImagesEpoch50](https://github.com/djcustard/GestureGAN/blob/master/Images/50.png)
 
 <i> Epoch 1 compared to Epoch 50. My stride and processing is at too low of a level for (1, 150, 150, 1). This develops this grid like texture. The Audio for these clips will be added soon.</i>
 
