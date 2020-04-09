@@ -95,6 +95,15 @@ As mentioned, because of the smaller strides, we recieve a grid like texture whi
 
 09/04/20 - Building a PGAN today. I think I will reconstruct a dataset appropriate for this model and DCGAN too. I will retry DCGAN with this new dataset and begin to recieve results from PGAN. Each of the 100 resized audio clips will be appended in a Numpy array. These will then be transferred a tensor and reshaped to a 10x10 grid. I'm also investigating representing the signals as 3 dimensional images (RGB).
 
+Dataset is underway now. We are currently forming one with the shape appropriate for smaller PGAN work; tensors with shape (1, 128, 128, 3). First these are trimmed to wav's of 49,152 sample length. Then these will be converted to tensors. Here are some of the images:
+
+
+It its important to note that PGAN have the potential to create 1024x1024 size images. Whilst this takes considerable power and will most likely involve renting time on a higher spec computer. This could be a possibility. If the PGAN works on a smaller scale with random audio clips, the next steps will be to:
+
+- Develop a classifier and organise the audio clips into folders of their specification.
+- Attempt to create a combine a conditional network design (introduce controlled interpolation)
+- Create higher resolution, and in-turn, longer audio clips.
+
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
 Links:
