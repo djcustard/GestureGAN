@@ -115,6 +115,8 @@ It its important to note that PGAN have the potential to create 1024x1024 size i
 - Attempt to create a combine a conditional network design (introduce controlled interpolation)
 - Create higher resolution, and in-turn, longer audio clips.
 
+10/04/20 - Still following tutorial on the construction of P-GAN's. If I am able to get results from this network. We will then begin inputting audio.
+
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
 Links:
