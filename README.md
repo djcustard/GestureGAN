@@ -119,7 +119,7 @@ It its important to note that PGAN have the potential to create 1024x1024 size i
 
 11/04/20 - First run of PGAN code of the day. The session crashed after using too much RAM. However I was offered the ability to connect to a notebook with more RAM, hopefully this should improve my opportunity of results. I have started to recieve results! This is from the practice dataset which is the Large CelebA set[link8]. This means I will then be able to input the plots of sound. The dataset I currently have prepared has a size of 3800 clips. I will add clips from other folders to then have this figure to a possible 20k. I am also considering investigating whether I can increase the visual range of these images by increasing the numpy values by 3x. Hopefully there will be a larger range and more contrast in the plots. I will try this today and post results here.
 <p align='center'>
-<img width="800" height="500" src="128x128FACES.png">
+<img width="500" height="400" src="128x128FACES.png">
 </p>
 
 These are faces generated from the PGAN model from the tutorial[link7]. Tomorrow I will train the audio dataset on this architecture. Before this I will complete a few last tasks today:
