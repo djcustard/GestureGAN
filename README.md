@@ -128,6 +128,8 @@ These are faces generated from the PGAN model from the tutorial[link7]. Tomorrow
 - Experiment with representation of clips (3x float values to increase range)
 - Ensure clips retain their properties when transferred back to sound
 - P-GAN code to include GIF representation of total epoch's. This will be incorporated from a TensorFlow tutorial. [link9]
+- Plotted representation will feature 3 images that are larger
+- Audio clips and plots will be saved more frequently
 
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
