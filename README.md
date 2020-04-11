@@ -119,8 +119,16 @@ It its important to note that PGAN have the potential to create 1024x1024 size i
 
 11/04/20 - First run of PGAN code of the day. The session crashed after using too much RAM. However I was offered the ability to connect to a notebook with more RAM, hopefully this should improve my opportunity of results. I have started to recieve results! This is from the practice dataset which is the Large CelebA set[link8]. This means I will then be able to input the plots of sound. The dataset I currently have prepared has a size of 3800 clips. I will add clips from other folders to then have this figure to a possible 20k. I am also considering investigating whether I can increase the visual range of these images by increasing the numpy values by 3x. Hopefully there will be a larger range and more contrast in the plots. I will try this today and post results here.
 <p align='center'>
-<img width="300" height="300" src="128X128FACES.png">
+<img width="300" height="300" src="128x128FACES.png">
 </p>
+
+These are faces generated from the PGAN model from the tutorial[link7]. Tomorrow I will train the audio dataset on this architecture. Before this I will complete a few last tasks today:
+
+- Adjust audio clip length and ensure a larger amount of uncurated samples are available.
+- Experiment with representation of clips (3x float values to increase range)
+- Ensure clips retain their properties when transferred back to sound
+- P-GAN code to include GIF representation of total epoch's. This will be incorporated from a TensorFlow tutorial. [link9]
+
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
 Links:
@@ -131,3 +139,5 @@ Links:
 <p>link5 - https://arxiv.org/pdf/1710.10196.pdf</p>
 <p>link6 - https://machinelearningmastery.com/introduction-to-progressive-growing-generative-adversarial-networks/</p>
 <p>link7 - https://machinelearningmastery.com/how-to-train-a-progressive-growing-gan-in-keras-for-synthesizing-faces/</p>
+<p>link8 - http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html</p>
+<p>link9 - https://www.tensorflow.org/tutorials/generative/dcgan</p>
