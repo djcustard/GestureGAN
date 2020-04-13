@@ -133,7 +133,7 @@ These are faces generated from the PGAN model from the tutorial[link7]. Tomorrow
 
 12/04/20 - Audio clip dataset now totals 26860. These are uncurated and unspecialised. Potentially these may not produce any interesting results from the netowrk. However we can improve the dataset at a later time if need be. Curating the dataset will mean building a classifier and categorising the audio into sub-folders.
 
-13/04/20 - Updating the code for PGAN and the incoming dataset. I will then train this model and produce audio. I have yet to implement the GIF representation, however loading in the dataset will take nearly 7 hours. Luckily this will be saved as a numpy array after.
+13/04/20 - Updating the code for PGAN and the incoming dataset. I will then train this model and produce audio. I have yet to implement the GIF representation, however loading in the dataset will take nearly 7 hours. Luckily this will be saved as a numpy array after. It is now at a predicted 16 hour period to load in the audio.
 
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
