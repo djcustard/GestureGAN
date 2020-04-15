@@ -137,7 +137,7 @@ These are faces generated from the PGAN model from the tutorial[link7]. Tomorrow
 
 14/04/20 - Dataset load in complete, now training the model. Apparently I am unable to do this as I have used up my allocated slots. I will try to connect locally to my system.
 
-15/04/20 - After training the model. The images recieved were very disappointing, I believe because the traits of these images are very detailed. (Rather a texture than a face) The model was unable to fully understsand these through Convolution. Today I will tak a different approach and try interacting with GANSynth's code to see the output from their STFT. Potentially, because the contrast in these plots is much greater, we could imagine them to allow the model to train much better.
+15/04/20 - After training the model. The images recieved were very disappointing, I believe because the traits of these images are very detailed. (Rather a texture than a face) The model was unable to fully understsand these through Convolution. Today I will tak a different approach and use SciPys STFT method. Potentially, because the contrast in these plots is much greater, we could imagine them to allow the model to train much better.
 
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
