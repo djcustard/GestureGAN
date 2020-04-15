@@ -140,7 +140,7 @@ These are faces generated from the PGAN model from the tutorial[link7]. Tomorrow
 15/04/20 - After training the model. The images recieved were very disappointing, I believe because the traits of these images are very detailed. (Rather a texture than a face) The model was unable to fully understsand these through Convolution. Today I will tak a different approach and use SciPys STFT method. Potentially, because the contrast in these plots is much greater, we could imagine them to allow the model to train much better. SciPy's STFT can generate small numpy arrays of (223,223) but of dtype complex128. Whilst looking through this however, I realised that my dataset had become distorted, potentially this could be a reason for the fault in my dataset training. Listening back to the clips as well, they are sped up. I believe this is to do with the incorrect Sample Rate on the wavfile. I will try to ensure this doesn't happen again and we will retrain. Because of the lack of results thus far in these processes, I am finding myself hard to motivate. However, we'll see if this training on the model presents any interesting results. Here is an image representation of the distortion:
 
 <p align='center'>
-<img width="500" height="500" src="distorted.png">
+<img width="500" height="500" src="Images/distorted.png">
 </p>
 
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
