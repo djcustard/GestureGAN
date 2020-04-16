@@ -145,6 +145,12 @@ These are faces generated from the PGAN model from the tutorial[link7]. Tomorrow
 
 16/04/20 - Distortion in the images was always there. When I had been displaying the audio, I was using a different format with the numpy arrays. Today I'm working on solving the image representation of the audio clips. Referring back to Daisukelab's comment on the preprocessed Mel Spectrogram dataset, it was mentioned that a GAN could be made to try and generate audio from spectrogram image representations. Yesterday I did some research on this and came across a multitude of groups that have researched into this area. TiFGAN[link10] seems to generate and then recreate audio from STFT plots. I will spend more time looking over this work. Producing audio from the plots is key as this will be what is fed into the PGAN. Looking back at my previous distorted plots, because they have each been recorded at the wrong sample rate, they now contain a lot less sample points, I am looking into scaling these image representations to the (128,128) format. Scaling could potentially increase definition of features on a plot.
 
+In a very surprised turn of events, my PGAN now works! The dataset may need to be readjusted due to the wrong sampling rate, however this can be done after we hear the first audio clips. Here are the plots so far, I presume the model will complete around 19:00:
+
+![TRAIN1](https://github.com/djcustard/GestureGAN/blob/master/Images/TRAIN1.png)
+![TRAIN2](https://github.com/djcustard/GestureGAN/blob/master/Images/TRAIN2.png)
+![TRAIN3](https://github.com/djcustard/GestureGAN/blob/master/Images/TRAIN3.png)
+
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
 Links:
