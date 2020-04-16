@@ -157,4 +157,4 @@ Links:
 <p>link7 - https://machinelearningmastery.com/how-to-train-a-progressive-growing-gan-in-keras-for-synthesizing-faces/</p>
 <p>link8 - http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html</p>
 <p>link9 - https://www.tensorflow.org/tutorials/generative/dcgan</p>
-<p>link10 - https://www.tensorflow.org/tutorials/generative/dcgan</p>
+<p>link10 - https://tifgan.github.io</p>
