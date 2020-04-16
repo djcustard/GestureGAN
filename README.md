@@ -155,6 +155,8 @@ In a very surprised turn of events, my PGAN now works! The dataset may need to b
 ![TRAIN1](https://github.com/djcustard/GestureGAN/blob/master/Images/TRAIN1.png)
 ![TRAIN2](https://github.com/djcustard/GestureGAN/blob/master/Images/TRAIN2.png)
 
+After the model has completed training, I will be able to seperate the Generator and produce more audio clips. I will produce a folder of samples. From here I will now need to build a classifier and begin splitting the audio files into there classification.
+
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
 Links:
