@@ -161,6 +161,8 @@ At lower resolutions, I will scale the array up to the size (128,128). This is s
 
 17/04/20 - After the success with the model yesterday, unfortunately it was unabel to save the last 128x128 tuned layer of the model. This is the key finished version so I must train up the model again today. I added a line in the code last night which allowed the model to produce audio from the plots, however I believe this could have made it unstable so I removed this code. Once the PGAN model is fully trained, I will be able to extract the generator and produce audio clips. Fingers crossed for sound today!
 
+18/04/20 - I have trained the model for two days in a row for the past two days, however on the last stage the image nor the model is saved. I believe that I run out of my allocated Google Colab time. Because of this I will save he discriminator models today as well whilst it trains. Then tomorrow I will train the final stage seperately. Today we'll be able to listen to the fadedd 128x128 model.
+
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
 Links:
