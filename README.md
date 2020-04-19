@@ -163,6 +163,10 @@ At lower resolutions, I will scale the array up to the size (128,128). This is s
 
 18/04/20 - I have trained the model for two days in a row for the past two days, however on the last stage the image nor the model is saved. I believe that I run out of my allocated Google Colab time. Because of this I will save he discriminator models today as well whilst it trains. Then tomorrow I will train the final stage seperately. Today we'll be able to listen to the fadedd 128x128 model.
 
+19/04/20 - Training yesterday and today has produced some rather odd results. They give the impression to me that if I save the discrimintor then it resets? It doesn't seem to catch behaviour as it used to. For comparison I will show plots before and after saving was implemented:
+
+
+
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
 Links:
