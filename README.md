@@ -165,8 +165,10 @@ At lower resolutions, I will scale the array up to the size (128,128). This is s
 
 19/04/20 - Training yesterday and today has produced some rather odd results. They give the impression to me that if I save the discrimintor then it resets? It doesn't seem to catch behaviour as it used to. For comparison I will show plots before and after saving was implemented:
 
+21/04/20 - The generator's produce sound, however not ones that I want. To try and fix this, I'm going to return to our visual representation of audio. I think there are a few errors here, such as the distortion. Reffering back to the image representations, we want this to be scaled around 1,-1. This allows for better processing in the GAN network. At the moment, these are the values it is scaled around:
 
-
+I will find out the range at which these cover through research. These are 32Bit Depth audio clips. Their values lie between the range of -2,147,483,648 and +2,147,483,647. In imshow, the values want to range between 0,1. Today I'll create a new dataset which has divided by the max 2,147,483,648 to try and adjust to the [-1,1] scale. Potentially I will be able to get some better results then.
+ 
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
 Links:
