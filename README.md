@@ -173,7 +173,7 @@ Whilst I build this new dataset, I will try to troubleshoot a few different idea
 
 At the moment, with a 32 bit depth, there is a huge range. Just by taking the max value 2,147,483,648 and cube rooting, we recieve a value of 1290.0... If we were to even times all max values of RGB, then we would be nowhere near our target. To work around this, we coul work at a 16 bit depth rate which has a range of -32,768 and +32,767. This range could easily be covered and represented by RGB values. I will present a conversion of the same audio clip to have evidence of the reduction.
 
-Because of my capabilities in Java (and because I can't run another notebook in Google Colab) I have been working on ways to reduce each 16bit depth sample to an RGB value.
+Because of my capabilities in Java (and because I can't run another notebook in Google Colab) I have been working on ways to reduce each 16bit depth sample to an RGB value. I have a method, however it reduceds the range to 23,320. This is still a great range than a 12bit depth. Tomorrow we will hear and evaluate the change.
 
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
