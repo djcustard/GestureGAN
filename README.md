@@ -175,6 +175,8 @@ At the moment, with a 32 bit depth, there is a huge range. Just by taking the ma
 
 Because of my capabilities in Java (and because I can't run another notebook in Google Colab) I have been working on ways to reduce each 16bit depth sample to an RGB value. I have a method, however it reduceds the range to 23,320. This is still a great range than a 12bit depth. Tomorrow we will hear and evaluate the change.
 
+22/04/20 - Overnight, I have considered just creating images of (256,256,3). This is just because I'm not sure whether audio clips will be recognisable in such short time. This will give us audio clips of length 65,536 sample points, over a second long.
+
 Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
 Links:
