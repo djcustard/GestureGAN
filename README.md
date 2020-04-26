@@ -185,7 +185,9 @@ Because of my capabilities in Java (and because I can't run another notebook in 
 
 24/04/20 - The past two days have been spent trying to produce the dataset. This has given me issues due to its size (256,256,3). I have tried producing this dataset with 20k samples, however I am now settling for 10k. Because I have run out of my GPU access for today, I will produce a 20k size dataset of samples of (128,128,3). These will be under a second, however will provide a safety net incase the (256,256,3) provide too computationally expensive in the network. Producing a new dataset of 16,384 sample point audio clips, I reduce the Sample rate to 22.05kHz as well. This will slow the original clip by half the speed.
 
-26/04/20 - Since my last post I have been trying to create a dataset. Because of the size of nealry 20k audio clips, it was hugely RAM intsensive. Thus I ended up producing a 7.5k sized dataset with (256,256,3). Today has been the first day I've been able to train far into the process. I will post some images later to show progress. As I am unsure about how the
+26/04/20 - Since my last post I have been trying to create a dataset. Because of the size of nealry 20k audio clips, it was hugely RAM intsensive. Thus I ended up producing a 7.5k sized dataset with (256,256,3). Today has been the first day I've been able to train far into the process. I will post some images later to show progress. As I am unsure about how succesful this representation of audio will be, I will do more research into STFT.
+
+
 
 Links:
 <p>link1 - https://keras.io/initializers/</p>
