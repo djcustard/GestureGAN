@@ -30,6 +30,7 @@ The resulting Dataset I now have is Numpy arrays of 2 dimensions. Now I must try
 
 The problem with this is that the arrays are not in a shape that could fit into the image GAN. However the MelSpecs that Daisukelab produced before are perfect for this. I will contact him to ask about the possibility of converting these specs back to sound.
 
+Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
 
 //THE GENERATIVE ADVERSARIAL NETWORK MODEL THAT I HAVE PREVIOUSLY EXPLORED//
 
@@ -184,7 +185,7 @@ Because of my capabilities in Java (and because I can't run another notebook in 
 
 24/04/20 - The past two days have been spent trying to produce the dataset. This has given me issues due to its size (256,256,3). I have tried producing this dataset with 20k samples, however I am now settling for 10k. Because I have run out of my GPU access for today, I will produce a 20k size dataset of samples of (128,128,3). These will be under a second, however will provide a safety net incase the (256,256,3) provide too computationally expensive in the network. Producing a new dataset of 16,384 sample point audio clips, I reduce the Sample rate to 22.05kHz as well. This will slow the original clip by half the speed.
 
-Because of my inability to be able to succesfully regenerate audio from the STFT images I recieve from Daisukelab's code, I returned to the GANSynth code. From reading their papers before, I understand that they are fully able to perform Audio->Spec-> Audio tasks. Inside their Python program, Specgrams_Helper, they define function's named "waves_to_specgrams" and "specgrams_to_waves". I will look into these methods soon.
+26/04/20 - Since my last post I have been trying to create a dataset. Because of the size of nealry 20k audio clips, it was hugely RAM intsensive. Thus I ended up producing a 7.5k sized dataset with (256,256,3). Today has been the first day I've been able to train far into the process. I will post some images later to show progress. As I am unsure about how the
 
 Links:
 <p>link1 - https://keras.io/initializers/</p>
