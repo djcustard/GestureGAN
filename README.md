@@ -187,7 +187,7 @@ Because of my capabilities in Java (and because I can't run another notebook in 
 
 26/04/20 - Since my last post I have been trying to create a dataset. Because of the size of nealry 20k audio clips, it was hugely RAM intsensive. Thus I ended up producing a 7.5k sized dataset with (256,256,3). Today has been the first day I've been able to train far into the process. I will post some images later to show progress. As I am unsure about how succesful this representation of audio will be, I will do more research into STFT.
 
-
+27/04/20 - Today I have spent the day setting up a new Progressive GAN architecture which I will then combine with a Conditional architecture tomorrow.
 
 Links:
 <p>link1 - https://keras.io/initializers/</p>
