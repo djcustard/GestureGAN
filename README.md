@@ -193,7 +193,7 @@ Because of my capabilities in Java (and because I can't run another notebook in 
 
 ![ClassifierModelTrain](https://github.com/djcustard/GestureGAN/blob/master/Images/badModel.png)
 
-As we see loss is much greater and our accuracy is only about 14%, by lunchtime (a very childlike goal post) this will hopefully be above 50%.
+As we see loss is much greater and our accuracy is only about 14%, by lunchtime (a very childlike goal post) this will hopefully be above 50%. Under my knowledge, I will create a Sequential Model that will use two or three layers of Convolution, then I will output a value to represent the tag. 
 
 Links:
 <p>link1 - https://keras.io/initializers/</p>
