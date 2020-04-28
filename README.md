@@ -195,7 +195,11 @@ Because of my capabilities in Java (and because I can't run another notebook in 
 
 As we see loss is much greater and our accuracy is only about 14%, by lunchtime (a very childlike goal post) this will hopefully be above 50%. Under my knowledge, I will create a Sequential Model that will use two or three layers of Convolution, then I will output a value to represent the tag. 
 
-I have developed a classifier that trains to 70%+, evaluating the model on the noisy dataset will allow me to see whether the model has overfit. Yet to test the noisy dataset, I had some problems unzipping so uploading to Google Drive a raw pickled version.
+I have developed a classifier that trains to 70%+, evaluating the model on the noisy dataset will allow me to see whether the model has overfit. Yet to test the noisy dataset, I had some problems unzipping so uploading to Google Drive a raw pickled version. Find below the results from the train dataset:
+
+![ClassifierGoodModelTrain](https://github.com/djcustard/GestureGAN/blob/master/Images/goodModel.png)
+
+The Noisy Dataset will supposedly take 6 hours to upload to Google Drive. I have also been testing the new PGAN model that I tried to implement yesterday, this failed to show any sign of producing promising results. Tomorrow I will look at introducing the Conditional elements after I test the model on the noisy dataset. The dataset will be split into different the folders of the different labels.
 
 Links:
 <p>link1 - https://keras.io/initializers/</p>
