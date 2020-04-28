@@ -189,6 +189,12 @@ Because of my capabilities in Java (and because I can't run another notebook in 
 
 27/04/20 - Today I have spent the day setting up a new Progressive GAN architecture which I will then combine with a Conditional architecture tomorrow.
 
+28/04/20 - Working on Classifier today, just started it working. The baseline model comes from the Fashion MNIST Tensorflow tutorial. Because I have yet to fully develop the model and the Fashion MNIST works with resolutions of (28,28,1), I will be developing the Classification model myself making it suitable to the Dataset. There are 81 possible tags that the classifier can class the audio into. Currently the model trains to a not very impressive performance. See below:
+
+![ClassifierModelTrain](https://github.com/djcustard/GestureGAN/blob/master/Images/badModel.png)
+
+As we see loss is much greater and our accuracy is only about 14%, by lunchtime (a very childlike goal post) this will hopefully be above 50%.
+
 Links:
 <p>link1 - https://keras.io/initializers/</p>
 <p>link2 - https://www.tensorflow.org/tutorials/customization/custom_training</p>
@@ -201,3 +207,4 @@ Links:
 <p>link9 - https://www.tensorflow.org/tutorials/generative/dcgan</p>
 <p>link10 - https://tifgan.github.io</p>
 <p>link11 - https://machinelearningmastery.com/how-to-implement-progressive-growing-gan-models-in-keras/</p>
+<p>link 12 - https://www.tensorflow.org/tutorials/keras/classification </p>
