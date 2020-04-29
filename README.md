@@ -201,6 +201,10 @@ I have developed a classifier that trains to 70%+, evaluating the model on the n
 
 The Noisy Dataset will supposedly take 6 hours to upload to Google Drive. I have also been testing the new PGAN model that I tried to implement yesterday, this failed to show any sign of producing promising results. Tomorrow I will look at introducing the Conditional elements after I test the model on the noisy dataset. The dataset will be split into different the folders of the different labels. Now the upload shows a more reasonable time of 1 hour and 47 minutes.
 
+29/04/20 - Unfortunately the classifier model overfit with the test data only having an accuracy of 9%. Today I will reduce the complexity of my model and increase the dataset it trains on to reduce overfitting.
+
+![ClassifierOverfitTrain](https://github.com/djcustard/GestureGAN/blob/master/Images/overfit.png)
+
 Links:
 <p>link1 - https://keras.io/initializers/</p>
 <p>link2 - https://www.tensorflow.org/tutorials/customization/custom_training</p>
