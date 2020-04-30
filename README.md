@@ -209,6 +209,8 @@ The Noisy Dataset will supposedly take 6 hours to upload to Google Drive. I have
 
 I believe I have changed the wrong dimensionality on the convolution layers. I will review the 16x16 tuned layer, if this doesn't seem correct I will switch the values provided. The convolution layers have kernel window sizes of 1x1, 6x1 and 8x2.
 
+I am experimenting with the success of my classifier currently. By making slight adjustments to the layers, I am hoping to find which method improves the accuracy best.
+
 Links:
 <p>link1 - https://keras.io/initializers/</p>
 <p>link2 - https://www.tensorflow.org/tutorials/customization/custom_training</p>
