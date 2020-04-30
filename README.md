@@ -205,6 +205,8 @@ The Noisy Dataset will supposedly take 6 hours to upload to Google Drive. I have
 
 ![ClassifierOverfitTrain](https://github.com/djcustard/GestureGAN/blob/master/Images/overfit.png)
 
+30/04/20 - Today I am readjusting the PGAN model to Convolute with a horizontal priority. Previously the model had convolutional layers with kernel size 1x1, 2x2 and 4x4 which meant that convolution occured in a square format. This is appropriate for normal images as there is no dimensionality over the 2D images. However in the case of the audio representaion, the signal is represented from top left to bottom right, moving the floating point values over RGB values in a horizontal pattern. This is evident from the representations above. I will train this model and also work on my own model. The intensity of possibility for error in these cases is very high. For my classifier model, I am reading the _Going Deeper With Convolutions_ paper by Szegedy(2014) et al.[link13]
+
 Links:
 <p>link1 - https://keras.io/initializers/</p>
 <p>link2 - https://www.tensorflow.org/tutorials/customization/custom_training</p>
@@ -218,3 +220,4 @@ Links:
 <p>link10 - https://tifgan.github.io</p>
 <p>link11 - https://machinelearningmastery.com/how-to-implement-progressive-growing-gan-models-in-keras/</p>
 <p>link 12 - https://www.tensorflow.org/tutorials/keras/classification </p>
+<p>link 13 - https://arxiv.org/pdf/1409.4842.pdf </p>
