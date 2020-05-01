@@ -211,6 +211,8 @@ I believe I have changed the wrong dimensionality on the convolution layers. I w
 
 I am experimenting with the success of my classifier currently. By making slight adjustments to the layers, I am hoping to find which method improves the accuracy best.
 
+31/04/20 - Because of the lack of coherent sound so far, I will begin to produce a composition to demonstrate the potential of these models. I will consider how motion and energy are applied into sound. I am still testing the classifier too.
+
 Links:
 <p>link1 - https://keras.io/initializers/</p>
 <p>link2 - https://www.tensorflow.org/tutorials/customization/custom_training</p>
