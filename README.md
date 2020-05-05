@@ -225,6 +225,10 @@ I am experimenting with the success of my classifier currently. By making slight
 
 Alongside these definitions I have collected sounds which demonstrates each categories definition. This collection of sounds will be submitted as a dataset that could potentially be used for neural network training in the future.
 
+03/05/20 - I generated a score for the composition. The material outlined expresses the different gestures heard overtime and the eventual introduction of interpolated gestures.
+
+04/05/20 - Following the score produced from yesterday I began to compose the composition with the dataset sounds. The piece beings with distorted clips of audio. This is to represent the first stage of Progressive GAN's image building process. Generating at a small 4x4 resolution.
+
 Links:
 <p>link1 - https://keras.io/initializers/</p>
 <p>link2 - https://www.tensorflow.org/tutorials/customization/custom_training</p>
