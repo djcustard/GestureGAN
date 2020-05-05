@@ -217,9 +217,9 @@ I am experimenting with the success of my classifier currently. By making slight
 
 - Trigger: A sound which is heard after a summation of energy has peaked above a threshold. This causes a sudden change of state.
 
-- Trigger Continous: Energy is applied to the acoustic body. This produces and initial peak and either the energy still moves within the body, or their are smaller amounts of energy still being applied to the body.
+- Trigger Continous: Energy is applied to the acoustic body. This produces an initial peak and either the energy still moves within the body, or their are smaller amounts of energy still being applied to the body.
 
-- Continous Variation: A stream of energy which varies in intensity.
+- Continous Variation: A stream of energy which varies in intensity from the listeners perspective.
 
 - Repetitious Variation: A sound which is held or continously loops.
 
