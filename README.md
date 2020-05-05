@@ -215,7 +215,7 @@ I am experimenting with the success of my classifier currently. By making slight
 
 01/05/20 - 02/05/20 - I have established that my gestures will fall into 4 categories which summarise the enegy output or, rather so, the envelope of the sound. These titles are as such Trigger, Trigger Continuous, Continuous Variation and Continuous Repetition. The titles define the energy behaviour across the acoustic bodies and thus their sonic profile. Find below the defintions for these:
 
-- Trigger: A sound which is heard after a summation of energy has peaked above a threshold. This causes a suden change of state.
+- Trigger: A sound which is heard after a summation of energy has peaked above a threshold. This causes a sudden change of state.
 
 - Trigger Continous: Energy is applied to the acoustic body. This produces and initial peak and either the energy still moves within the body, or their are smaller amounts of energy still being applied to the body.
 
