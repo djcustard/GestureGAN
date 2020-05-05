@@ -213,6 +213,18 @@ I am experimenting with the success of my classifier currently. By making slight
 
 31/04/20 - Because of the lack of coherent sound so far, I will begin to produce a composition to demonstrate the potential of these models. I will consider how motion and energy are applied into sound. I am still testing the classifier too.
 
+01/05/20 - 02/05/20 - I have established that my gestures will fall into 4 categories which summarise the enegy output or rather so the envelope of the sound. These titles are as such Trigger, Trigger Continuous, Continuous Variation and Continuous Repetition. The titles define the energy behaviour across the acoustic bodies and thus their sonic profile. Find below the defintions for these:
+
+- Trigger: A sound which is heard after a summation of energy has peaked above a threshold. This causes a suden change of state.
+
+- Trigger Continous: Energy is applied to the acoustic body. This produces and initial peak and either the energy still moves within the body, or their are smaller amounts of energy still being applied to the body.
+
+- Continous Variation: A stream of energy which varies in intensity.
+
+- Repetitious Variation: A sound which is held or continously loops.
+
+Alongside these definitions I have collected sounds which demonstrates each categories definition. This collection of sounds will be submitted as a dataset that could potentially be used for neural network training in the future.
+
 Links:
 <p>link1 - https://keras.io/initializers/</p>
 <p>link2 - https://www.tensorflow.org/tutorials/customization/custom_training</p>
