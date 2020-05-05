@@ -221,7 +221,7 @@ I am experimenting with the success of my classifier currently. By making slight
 
 - Continous Variation: A stream of energy which varies in intensity from the listeners perspective.
 
-- Repetitious Variation: A sound which is held or continously loops.
+- Repetitious Variation: A sound which is held or continuously loops.
 
 Alongside these definitions I have collected sounds which demonstrates each categories definition. This collection of sounds will be submitted as a dataset that could potentially be used for neural network training in the future.
 
