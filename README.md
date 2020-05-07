@@ -229,6 +229,14 @@ Alongside these definitions I have collected sounds which demonstrates each cate
 
 04/05/20 - Following the score produced from yesterday I began to compose the composition with the dataset sounds. The piece beings with distorted clips of audio. This is to represent the first stage of Progressive GAN's image building process. Generating at a small 4x4 resolution.
 
+05/05/20 - The composition develops from
+
+06/05/20 - Composition draft complete
+
+07/05/20 - DATA REPRESENTATION:
+
+I am returning to the problem of data representation whilst commenting my code. From the knowledge I have learnt, I understand that for models to understand the images they recieve and map their input, contrast and definition is key. 
+
 Links:
 <p>link1 - https://keras.io/initializers/</p>
 <p>link2 - https://www.tensorflow.org/tutorials/customization/custom_training</p>
