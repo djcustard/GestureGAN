@@ -237,6 +237,8 @@ Alongside these definitions I have collected sounds which demonstrates each cate
 
 I am returning to the problem of data representation whilst commenting my code. From the knowledge I have learnt, I understand that for models to understand the images they recieve and map their input, contrast and definition is key. 
 
+17/05/10 - I have been working on the survey today. Generating the videos to 
+
 Links:
 <p>link1 - https://keras.io/initializers/</p>
 <p>link2 - https://www.tensorflow.org/tutorials/customization/custom_training</p>
